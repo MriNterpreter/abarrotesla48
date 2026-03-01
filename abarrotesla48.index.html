@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abarrotes La 48</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #d32f2f; /* Coca-Cola red */
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav {
+      background-color: #388e3c; /* Sprite green */
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .content {
+      padding: 2rem;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .images img {
+      max-width: 300px;
+      border: 3px solid #d32f2f;
+      border-radius: 8px;
+    }
+    .products {
+      margin-top: 2rem;
+    }
+    .products h2 {
+      color: #d32f2f;
+      text-align: center;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .product-card {
+      border: 2px solid #388e3c;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 250px;
+      text-align: center;
+      background-color: #f9f9f9;
+      cursor: pointer;
+    }
+    .product-card h3 {
+      margin: 0.5rem 0;
+      color: #d32f2f;
+    }
+    .product-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: none; /* hidden by default */
+    }
+    .product-card li {
+      margin: 0.3rem 0;
+    }
+    .promo-banner {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin: 2rem 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .map {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    footer {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abarrotes La 48</h1>
+    <p>Tu tienda de confianza en Cuauhtémoc, Chihuahua</p>
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#imagenes">Imágenes</a>
+    <a href="#ubicacion">Ubicación</a>
+  </nav>
+
+  <div class="content">
+    <!-- IMAGES SECTION -->
+    <section id="imagenes">
+      <h2>Imágenes del negocio</h2>
+      <div class="images">
+        <img src="WhatsApp Image 2026-03-01 at 14.50.11.jpeg" alt="Fachada de Abarrotes La 48">
+        <img src="WhatsApp Image 2026-03-01 at 14.50.12.jpeg" alt="Promociones en Abarrotes La 48">
+      </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="productos" class="products">
+      <h2>Lista de Precios</h2>
+      <div class="product-list">
+        <div class="product-card">
+          <h3>Coca-Cola</h3>
+          <ul>
+            <li>300 ml - $12</li>
+            <li>600 ml - $22</li>
+            <li>1.0 L retornable - $22</li>
+            <li>1.5 L NR - $30</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Sprite</h3>
+          <ul>
+            <li>300 ml - $11</li>
+            <li>600 ml - $19</li>
+            <li>1.5 L - $25</li>
+            <li>2.5 L - $34</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Leche</h3>
+          <ul>
+            <li>1 L - $25</li>
+            <li>2 L - $45</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Carnes Frías</h3>
+          <ul>
+            <li>Jamón - $50/kg</li>
+            <li>Salchicha - $40/kg</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Abarrotes en General</h3>
+          <ul>
+            <li>Arroz - $20/kg</li>
+            <li>Frijol - $25/kg</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Pan Dulce y Pan Blanco</h3>
+          <ul>
+            <li>Pan Blanco - $35</li>
+            <li>Pan Dulce - $40</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Productos Bimbo</h3>
+          <ul>
+            <li>Galletas - $25</li>
+            <li>Pan Integral - $40</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Productos Marinela</h3>
+          <ul>
+            <li>Gansito - $15</li>
+            <li>Submarinos - $18</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Productos Ricolino</h3>
+          <ul>
+            <li>Paleta Payaso - $12</li>
+            <li>Bubulubu - $10</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Sabritas</h3>
+          <ul>
+            <li>Papitas - $20</li>
+            <li>Ruffles - $22</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Barcel</h3>
+          <ul>
+            <li>Takis - $18</li>
+            <li>Chips - $20</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <h3>Otros</h3>
+          <ul>
+            <li>Refrescos varios</li>
+            <li>Productos de temporada</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMOTIONS BANNER -->
+    <div class="promo-banner">
+      ¡Ahorra $2 con cada tapa plateada en productos Coca-Cola participantes tamaño 2L!
+    </div>
+
+    <!-- MAP SECTION -->
+    <section id="ubicacion" class="map">
+      <h2>Ubicación</h2>
+      <p>Dirección: C. 48 445, A, 31527 Cuauhtémoc, Chih.</p>
+      <iframe 
+        src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=C.+48+445,+A,+31527+Cuauhtémoc,+Chih."
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Abarrotes La 48 - Todos los derechos reservados</p>
+  </footer>
+
+  <script>
+    // Toggle product lists when clicking on product name
+    document.querySelectorAll('.product-card h3').forEach(title => {
+      title.addEventListener('click', () => {
+        const list = title.nextElementSibling;
+        list.style.display = (list.style.display === 'block') ? 'none' : 'block
